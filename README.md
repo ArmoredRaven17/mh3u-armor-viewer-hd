@@ -6,7 +6,7 @@ version's models and textures. Same app as the
 on 2026-10-17 so it looks and works the same. It's kept as its own repository so it has its own size
 budget.
 
-**Not published yet.**
+Live at **https://armoredraven17.github.io/mh3u-armor-viewer-hd/**.
 
 ## What is different from the 3DS data
 
