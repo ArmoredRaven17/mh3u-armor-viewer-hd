@@ -20,6 +20,10 @@ is how the textures are stored:
   away from the 3DS texels.
 - **Weapons:** 21 of the cart's 574 weapon archives are not on the Wii U disc. No weapon in the
   game's tables draws their models (the 3DS app lists them as unused too), so no weapon is lost.
+- **Colour board and Skin Tone:** the Wii U picks hair, clothing and feature colours on its own,
+  larger colour board, and its Skin Tone slider runs 0-99 over its own skin strip (the 3DS: 0-189).
+  The twelve preset colours, the 44 armour pigments and the armour and weapon tables are the same.
+  The viewer uses the Wii U's board, preset spots and slider.
 
 ## Running it
 
@@ -29,7 +33,10 @@ No build step. Serve `docs/` with any static file server:
 
 ## Contents
 
-    docs/index.html      the app: markup, styles and logic (from the MH3U Armor Viewer)
+    docs/index.html      the page: the shared viewer base's markup (docs/base, pulled from the MHGU
+                         Armor Viewer by dev/sync-base.py)
+    docs/app.js          the app's logic, docs/game.js its rules, docs/adapter.js its data for the
+                         base -- all ported from the MH3U Armor Viewer by dev/port-from-3u.py
     docs/armor.json      the game's armour tables, every player model, the clothing drawn under an
                          empty slot, per helm the hair and face parts it leaves, the colour choices
                          and the motion lists; `_about` says where each comes from
