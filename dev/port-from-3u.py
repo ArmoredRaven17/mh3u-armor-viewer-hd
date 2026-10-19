@@ -42,11 +42,11 @@ R['docs/index.html'] = [
       </li>
       <li class="current">
         <span class="app-name">Armor Viewer HD <span class="app-here">you are here</span></span>
-        <span class="app-desc">The Armor Viewer with the Wii U version's higher-resolution models and textures.</span>
+        <span class="app-desc">The Armor Viewer with the Wii U version's models and textures.</span>
       </li>
 '''),
     ("with the game's own models, textures and names. Not affiliated",
-     "with the Wii U version's own models and higher-resolution textures, and the game's own names and motion lists. "
+     "with the Wii U version's own models and textures, and the game's own names and motion lists. "
      "Not affiliated"),
     ('''        <span class="app-desc">Converted MT Framework <code>.mod</code> meshes to glTF and <code>.tex</code> textures to DDS.</span></li>
 ''', '''        <span class="app-desc">Converted MT Framework <code>.mod</code> meshes to glTF and <code>.lmt</code> motion lists to animation (the motion lists from the 3DS version, whose skeletons are the same).</span></li>
