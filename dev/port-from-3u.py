@@ -32,9 +32,15 @@ R = {}
 R['docs/index.html'] = [
     ('<title>MH3U Armor Viewer</title>', '<title>MH3U Armor Viewer HD</title>'),
     ('<h1>MH3U Armor Viewer</h1>', '<h1>MH3U Armor Viewer HD</h1>'),
+    # the Links modal: 3U's lists every MH3U app in the hub's order with its own row "you are here" and HD's a link; HD
+    # swaps the two (3U's row becomes the link, HD's the "you are here" one), keeping each row's text as 3U has it
     ('''      <li class="current">
         <span class="app-name">Armor Viewer <span class="app-here">you are here</span></span>
         <span class="app-desc">Renders a hunter in 3D with every MH3U armor piece swappable, so you can mix and match a set.</span>
+      </li>
+      <li>
+        <a href="https://armoredraven17.github.io/mh3u-armor-viewer-hd/" target="_blank" rel="noopener">Armor Viewer HD</a>
+        <span class="app-desc">The Armor Viewer with the Wii U version's models and textures.</span>
       </li>
 ''', '''      <li>
         <a href="https://armoredraven17.github.io/mh3u-armor-viewer/" target="_blank" rel="noopener">Armor Viewer</a>
